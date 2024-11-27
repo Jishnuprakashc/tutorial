@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik+Wet+Paint&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-style: normal;
+}
+.navbar-section nav{
+    display: flex;
+}
+.nav-logo img{
+    margin-left: 64px;
+}
+
+.nav-menu ul {
+    display: flex;
+    list-style: none;
+    margin-top: 34px;
+    margin-left: 300px;
+   
+}
+.nav-menu ul li{
+    margin-left: 60px;
+}
+.nav-menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.nav-menu ul li a:hover{
+    color: orange;
+}
+.nav-menu ul li a:active{
+    color: orange;
+}
+.nav-menu ul li a:focus {
+    color: orange;  
+}
+
+.btn{
+    float: right;
+    margin-right: -193px;
+    margin-top: -36px;
+    padding: 11px 37px;
+    border-radius: 7px;
+    border-style: none;
+    background: orange;
+    color: #fff;
+    font-weight: 800;
+    cursor: pointer;
+}
+.btn:hover{
+    background: green;
+}
+/* .icons{
+    display: none;
+} */
+
+#check {
+    display: none;
+}
+#cancel{
+    display: none;
+}
+
+
+.icons #menu {
+    font-size: 30px; 
+    cursor: pointer;
+    display: none;
+    margin-left: 508px;
+    }
+
+
+.navbar-section nav{
+    display: flex;
+}
+.nav-logo img{
+    margin-left: 64px;
+}
+
+.nav-menu ul {
+    display: flex;
+    list-style: none;
+    margin-top: 34px;
+    margin-left: 300px;
+   
+}
+.nav-menu ul li{
+    margin-left: 60px;
+}
+.nav-menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.nav-menu ul li a:hover{
+    color: orange;
+}
+.nav-menu ul li a:active{
+    color: orange;
+}
+.nav-menu ul li a:focus {
+    color: orange;  
+}
+
+.btn{
+    float: right;
+    margin-right: -193px;
+    margin-top: -36px;
+    padding: 11px 37px;
+    border-radius: 7px;
+    border-style: none;
+    background: orange;
+    color: #fff;
+    font-weight: 800;
+    cursor: pointer;
+}
+.btn:hover{
+    background: green;
+}
+/* home sections */
+.home-section1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.68)),url('./images/Homepage-jumbotron.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+    backdrop-filter: blur(15px);
+    display: flex;
+}
+.left1-section{
+    margin-top: 123px;
+    margin-left: 141px;
+}
+.left1-section h1{
+    color: #fff;
+    font-size: 40px;
+}
+.left1-section p{
+    color: #fff;
+    margin-top: 10px;
+    font-size: 19px;
+}
+/* .right1-section{ 
+    height: 469px;
+    width: 327px;
+    background-color: #fff;
+    margin-top: 102px;
+    margin-left: 363px;
+    border-radius: 6px;
+} */
+.btn1{
+    padding: 14px 31px;
+    background-color: orange;
+    color: #fff;
+    border-style: none;
+    margin-top: 17px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 900;
+    cursor: pointer;
+}
+/* .form-container{ 
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.form-container h1{
+    font-size: 27px;
+    margin-bottom: 10px;
+}
+.form-container p{
+    font-size: 18px;
+}
+.form-container form{
+    flex-direction: column;
+    margin-top: 20px;
+}
+#date{
+    padding: 13px 63px;
+
+}*/
+/* enjoy-section */
+.home-section2{
+    display: flex;
+}
+.enjoy-header{
+    margin-left: 74px;
+    margin-top: 21px;
+}
+.enjoy-header h1{
+    font-size: 40px;
+}
+.line{
+    width: 30%;
+    height: 2px;
+    background-color: orangered;
+    border: none;
+    margin-top: 17px;
+    margin-bottom: 20px;
+}
+.enjoy-header p{
+    margin-top: 34px;
+    font-size: 20px;
+}
+.first-col{
+    margin-top: 64px;
+    margin-left: 120px;
+}
+.first-col .lower{
+    margin-top: 26px;
+}
+.coloums{
+    display: flex;
+}
+.second-col{
+    margin-top: 63px;
+    padding-left: 101px;
+}
+.second-col .second-lower{
+    margin-top: 26px;
+}
+.third-col{
+    margin-top: 65px;
+    margin-left: 174px;
+}
+.first-col .upper{
+    position: relative;
+}
+.upper .clock{
+    position: absolute;
+    top: 0px;
+    left: -43px;
+}
+.upper p{
+    margin-top: 10px;
+}
+.second-upper p{
+    margin-top: 10px;
+}
+.second-lower p{
+    margin-top: 10px;
+}
+.lower p{
+    margin-top: 10px;
+}
+.lower{
+    position: relative;
+}
+.lower .database{
+    position: absolute;
+    top: 0px;
+    left: -43px;
+}
+.second-upper{
+    position: relative;
+}
+.second-upper .coffe{
+    position: absolute;
+    top: 0px;
+    left: -43px;
+}
+.second-lower{
+    position: relative;
+}
+.second-lower .wifi{
+    position: absolute;
+    top: 0px;
+    left: -43px;
+}
+/* Simplicity section */
+.simplicity-header {
+    align-items: center;
+    text-align: center;
+    margin-top: 55px;
+
+}
+.line2{
+    width: 6%;
+    height: 2px;
+    background-color: orangered;
+    border: none;
+    margin-top: 4px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: 636px;
+}
+.large-container{
+    display: flex;
+}
+.side-container{
+    display: flex;
+    flex-direction: column;
+}
+.hotel-2{
+    margin-left: 8px;
+}
+.hotel-3{
+    margin-left: 3px;
+}
+.hotel-5{
+    margin-bottom: 16px;
+    margin-left: 5px;
+}
+.hotel-6{
+    margin-left: 5px;
+}
+.simplicity{
+    margin-left: 118px;
+}
+.standard{
+    display: flex;
+}
+.standard img{
+    position: relative;
+    top: 0px;
+    left: -3%;
+}
+.standard p{
+    position: absolute;
+    margin-left: 25px;
+}
+
+.offers-list li{
+    list-style: none;
+    margin-top: 18px;
+}
+.simplicity{
+    display: flex;
+}
+.simplicity-right{
+    margin-left: 180px;
+}
+.offers-subtitle{
+    margin-top: 0px;
+    font-size: 20px;
+}
+.offers-list{
+    margin-top: 12px;
+}
+
+.btn3{
+    padding: 14px 31px;
+    background-color: orange;
+    color: #fff;
+    border-style: none;
+    margin-top: 17px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 900;
+    margin-left: -10px;
+}
+/* client reviews */
+.client-heading{
+    text-align: center;
+    margin-top: 40px;
+}
+.line5{
+    width: 6%;
+    height: 2px;
+    background-color: orangered;
+    border: none;
+    margin-top: 11px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: 621px;
+}
+.client-paragraph{
+    text-align: center;
+    margin-top: 37px;
+    font-size: 20px;
+}
+.client-section{
+    display: flex;
+}
+.client-box{
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;
+    margin-left: 63px;
+    margin-top: 73px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.box-img1{
+    border-radius: 50%;
+    width: 81px;
+    height: 84px;
+    margin-left: 23px;
+    margin-top: 75px;
+}
+.box-name1{
+    margin-left: 32px;
+    margin-top: 13px;
+}
+.client-box h4{
+    margin-left: 34px;
+    margin-top: 7px;
+}
+.client-box p{
+    margin-left: 40px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+/* Footer */
+.footer{
+
+    color: #fff;
+}
+.footer-container{
+    margin: 0 auto;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    min-height: 240px;
+    font-size: 18px;
+    background-color: #241e09;
+    margin-top: 13px;
+}
+.footer-nav{
+    display: flex;
+    color: #fff;
+}
+.contact-map{
+    position: relative;
+    margin-top: 20px;
+}
+.map-description{
+    position: absolute;
+}
+.footer-follow-us{
+    margin-left: 372px;
+}
+.footer-contact-us{
+    margin-left: 271px;
+    margin-top: 29px;
+}
+.footer-description{
+    margin-left: 28px;
+    margin-top: 27px;
+}
+.footer-description p{
+    margin-top: 16px;
+    font-size: 23px;
+}
+.contact-phone{
+    margin-top: 8px;
+}
+.contact-email{
+    margin-top: 10px;
+}
+.footer-follow-us{
+    margin-top: 29px;
+}
+.social-icons{
+    cursor: pointer;
+    margin-top: 12px;
+}
+.social-icons a{
+    color: #fff;
+    padding-left: 0px;
+    margin-right: 12px;
+   
+}
+

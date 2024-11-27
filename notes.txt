@@ -1,0 +1,98 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            margin: 0;
+        }
+        nav {
+            background-color: grey;
+            color: white;
+            padding: 50px;
+            text-align: center;
+        }
+        .navbar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0px;
+            padding: 10px;
+        }
+        nav .navbar a:hover {
+            background-color: green;
+            padding: 10px;
+        }
+        
+        #check {
+            display: none;
+        }
+        #cancel{
+            display: none;
+        }
+
+        
+        .icons #menu {
+            font-size: 30px; 
+            cursor: pointer;
+            display: none;
+        }
+
+        @media (max-width: 768px) {
+            .navbar {
+                flex-direction: column;
+                text-align: left;
+                width: 100%;
+            }
+            .navbar a {
+                display: none;
+                padding: 10px;
+                background-color: grey;
+                width: 80%;
+            }           
+            .icons #menu {
+                display: block;
+                text-align: left;
+            }
+            .icons #cancel {
+                display: block;
+                text-align: left;
+                display: none;
+            }
+            #check:checked ~ .navbar a {
+                display: block;
+                text-align: center;
+                margin: 20px;
+            }
+            #check:checked ~ .navbar .icons #menu {
+                display: none;
+            }
+            #check:checked ~ .navbar .icons #cancel {
+                display: block;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <div class="navbar">
+            <label for="check" class="icons">
+                <i id="menu" class="fa-solid fa-burger"></i>
+                <i id="cancel" class="fa-solid fa-x fa-lg"></i>
+            </label>
+            <a href="">Home</a>
+            <a href="">Order Details</a>
+            <a href="">Order Number</a>
+        </div>
+    </nav>
+</body>
+</html>
